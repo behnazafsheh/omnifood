@@ -1,0 +1,85 @@
+:root {
+    --bg-color: rgb(215,211,228);
+    --darkPurple-color: rgb(138, 112, 214);
+    --lightPurple-color: rgb(233, 227, 254);
+    --darkBlue-color: rgb(86, 155, 228);
+    --lightBlue-color: rgb(229, 243, 254);
+    --black-color: rgb(0, 0, 0);
+    --white-color: rgb(255, 255, 255);
+    --lightPink-color: rgb(255, 227, 253);
+    --darkPink-color: rgb(222, 146, 213);
+    --lightOrange-color: rgb(255, 240, 225);
+    --darkOrange-color: rgb(252, 171, 94);
+    --btnOrange-color: rgb(255, 133, 19);
+    --btnHover-color: rgb(172, 83, 0);
+    --light-Gray-color:rgb(222, 222, 222);
+    --dark-Gray-color:rgb(121, 121, 121);
+    --brown-color:rgb(69, 38, 10);
+    --green-color:rgb(80, 112, 73);
+    --lightgreen-color:rgb(64, 179, 38);
+    --yellow-color:rgb(193, 180, 6);
+
+    
+  }
+  // mediaquery:
+  // $small: 400px;
+  // $medium: 600px;
+  // $large: 1344px;
+  
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  // html {
+  //   font-size: 62.5%;
+  //   box-sizing: border-box;
+  //   scroll-behavior: smooth;
+
+  //   @include media-up(lg){
+  //     font-size: 52.25%;
+  //   }
+  // }
+  
+  body {
+    font-size: 62.5%;
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    max-width: 1300px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 5rem;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  i {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  .d-flex{
+    display: flex;
+  }
